@@ -4,7 +4,7 @@ Ubuntu 20
 
 ## On the Ubuntu 20 Box
 1. Click the pull-down menu icon on the top-left bar
-2. Goto `Setting`
+2. Goto `Settings`
 3. On the `Ethernet (...)` connection in use, click on the `gear`
 4. Goto `IPv4` and take note of the `IPv4 Address`. Ex 150.61.178.19
 
@@ -20,7 +20,9 @@ Ubuntu 20
 9. Click save
 
 ## On the Ubuntu Box
-1. Open Terminal and type `sudo apt-get install nfs-common -y`
+1. Open Terminal and type 
+```text sudo apt-get install nfs-common -y
+```
 2. Make a directory to mount to with `sudo mkdir /media/my_mount_location`. Replace `my_mount_location` for the directory name of your choosing
 3. At the Open Terminal, type `sudo gedit /etc/fstab`
 4. At the bottom of the fstab file, type:
