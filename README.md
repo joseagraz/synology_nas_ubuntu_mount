@@ -21,7 +21,7 @@ Ubuntu 20
 8. Take note of the `Mount path` located at the bottom of the window. Ex /volume1/jagraz
 9. Click save
 
-![Shared Folders](images/screenshot1.png)
+![Shared Folders](images/screenshot2.png)
 
 ## On the Ubuntu Box
 1. Open Terminal and type: 
