@@ -21,6 +21,8 @@ Ubuntu 20
 8. Take note of the `Mount path` located at the bottom of the window. Ex /volume1/jagraz
 9. Click save
 
+![Shared Folders](images/screenshot1.png)
+
 ## On the Ubuntu Box
 1. Open Terminal and type: 
 ```text 
@@ -52,4 +54,4 @@ in the terminal or reboot.
   
 Navigate to the folder created in Step 2, files should be there
 
-[Reference:](https://gist.github.com/jdesive/07139df545a6fd6adf03f6a3b9075814)
+[Thanks so much to Jack DeSive](https://gist.github.com/jdesive/07139df545a6fd6adf03f6a3b9075814)
