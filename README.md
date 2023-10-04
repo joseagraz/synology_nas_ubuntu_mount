@@ -1,0 +1,1 @@
+# synology_nas_ubuntu_mount
