@@ -20,12 +20,19 @@ Ubuntu 20
 9. Click save
 
 ## On the Ubuntu Box
-1. Open Terminal and type 
+1. Open Terminal and type: 
 ```text 
 sudo apt-get install nfs-common -y
 ```
-2. Make a directory to mount to with `sudo mkdir /media/my_mount_location`. Replace `my_mount_location` for the directory name of your choosing
-3. At the Open Terminal, type `sudo gedit /etc/fstab`
+2. Make a directory to mount to using:
+```text 
+sudo mkdir /media/my_mount_location
+```
+Replace `my_mount_location` for the directory name of your choosing
+3. At the Open Terminal, type:
+```text 
+sudo gedit /etc/fstab
+```
 4. At the bottom of the fstab file, type:
 ```text
 # automount from synology box
@@ -34,6 +41,10 @@ sudo apt-get install nfs-common -y
 Where `150.65.138.4` is the static IP of the Synology box  
 and `/volume1/shared_folder` is your mount path shared folder noted earlier  
 and `/media/my_mount_location` is the folder you created in step 2
-5. Save and then type `sudo mount -a` in the terminal or reboot.
+5. Save and then type:
+```text 
+sudo mount -a
+```
+in the terminal or reboot.
   
 Navigate to the folder you created in Step 2 and your files should be there.
