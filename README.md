@@ -21,7 +21,8 @@ Ubuntu 20
 
 ## On the Ubuntu Box
 1. Open Terminal and type 
-```text sudo apt-get install nfs-common -y
+```text 
+sudo apt-get install nfs-common -y
 ```
 2. Make a directory to mount to with `sudo mkdir /media/my_mount_location`. Replace `my_mount_location` for the directory name of your choosing
 3. At the Open Terminal, type `sudo gedit /etc/fstab`
