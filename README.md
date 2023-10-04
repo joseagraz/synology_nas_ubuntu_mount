@@ -33,11 +33,15 @@ sudo apt-get install nfs-common -y
 sudo mkdir /media/my_mount_location
 ```
 Replace `my_mount_location` for the directory name of your choosing
-3. At the Open Terminal, type:
+3. Change the access premissions, at the Open Terminal, type:
+```text 
+sudo chmod -R 755 my_mount_location
+```
+4. At the Open Terminal, type:
 ```text 
 sudo gedit /etc/fstab
 ```
-4. At the bottom of the fstab file, type:
+5. At the bottom of the fstab file, type:
 ```text
 # automount from synology box
 150.65.138.4:/volume1/shared_folder /media/my_mount_location nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
@@ -46,7 +50,7 @@ Where:
 `150.65.138.4` is the static IP of the Synology box  
 `/volume1/shared_folder` is your mount path shared folder noted earlier  
 `/media/my_mount_location` is the folder you created in step 2  
-5. Save the fstab file and on the Open Terminal type or reboot:
+6. Save the fstab file and on the Open Terminal type or reboot:
 ```text 
 sudo mount -a
 ```
