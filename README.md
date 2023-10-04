@@ -1,5 +1,5 @@
 # Mount Synology NFS share to Ubuntu 20
-Synology DS1821+, DSM 7.1.1
+Synology DS1821+, DSM 7.1.1  
 Ubuntu 20
 
 ## On the Ubuntu 20 Box
@@ -39,13 +39,13 @@ sudo gedit /etc/fstab
 150.65.138.4:/volume1/shared_folder /media/my_mount_location nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
 ```
 Where:
-`150.65.138.4` is the static IP of the Synology box
-`/volume1/shared_folder` is your mount path shared folder noted earlier
-`/media/my_mount_location` is the folder you created in step 2
+`150.65.138.4` is the static IP of the Synology box  
+`/volume1/shared_folder` is your mount path shared folder noted earlier  
+`/media/my_mount_location` is the folder you created in step 2  
 5. Save and then type:
 ```text 
 sudo mount -a
 ```
-in the terminal or reboot.
+in the terminal or reboot.  
   
 Navigate to the folder created in Step 2, files should be there
