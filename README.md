@@ -8,6 +8,8 @@ Ubuntu 20
 3. On the `Ethernet (...)` connection in use, click on the `gear`
 4. Goto `IPv4` and take note of the `IPv4 Address`. Ex 150.61.178.19
 
+![IPv4 Address](images/screenshot0.png)
+
 ## On the Synology box
 1. Goto `Control Panel`
 2. Click `Shared Folder` and find your share you want to mount
@@ -42,10 +44,12 @@ Where:
 `150.65.138.4` is the static IP of the Synology box  
 `/volume1/shared_folder` is your mount path shared folder noted earlier  
 `/media/my_mount_location` is the folder you created in step 2  
-5. Save the fstab file and type:
+5. Save the fstab file and on the Open Terminal type:
 ```text 
 sudo mount -a
 ```
 in the terminal or reboot.  
   
 Navigate to the folder created in Step 2, files should be there
+
+[Reference:](https://gist.github.com/jdesive/07139df545a6fd6adf03f6a3b9075814)
