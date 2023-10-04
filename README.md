@@ -38,11 +38,11 @@ sudo gedit /etc/fstab
 # automount from synology box
 150.65.138.4:/volume1/shared_folder /media/my_mount_location nfs nouser,rsize=8192,wsize=8192,atime,auto,rw,dev,exec,suid 0 0
 ```
-Where:
+Where:  
 `150.65.138.4` is the static IP of the Synology box  
 `/volume1/shared_folder` is your mount path shared folder noted earlier  
 `/media/my_mount_location` is the folder you created in step 2  
-5. Save and then type:
+5. Save the fstab file and type:
 ```text 
 sudo mount -a
 ```
