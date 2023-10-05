@@ -56,4 +56,10 @@ sudo mount -a
 ```
 Navigate to the folder created in Step 2, files should be there  
 
+## Troubleshooting
+1. Remove the text in the fstab file from step 5, reboot, and start over
+2. Make sure the permissions on the mounting directory in step 3 are correct
+3. Verify the IP addresses for the Ubuntu machine and Synology box are correct
+4. Verify the IP address entered in `Hostname or IP` box is correct
+  
 [Thanks so much to Jack DeSive](https://gist.github.com/jdesive/07139df545a6fd6adf03f6a3b9075814)
