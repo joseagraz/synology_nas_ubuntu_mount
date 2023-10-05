@@ -32,7 +32,7 @@ sudo apt-get install nfs-common -y
 ```text 
 sudo mkdir /media/my_mount_location
 ```
-3. Change the access premissions, at the Open Terminal, type:
+3. Change the access premissions, at the Open Terminal type:
 ```text 
 sudo chmod -R 755 my_mount_location
 ```
