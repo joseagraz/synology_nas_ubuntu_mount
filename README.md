@@ -28,11 +28,10 @@ Ubuntu 20
 ```text 
 sudo apt-get install nfs-common -y
 ```
-2. Make a directory to mount to using:
+2. Make a directory to mount to using the command below. Replace `my_mount_location` for the directory name of your choosing
 ```text 
 sudo mkdir /media/my_mount_location
 ```
-Replace `my_mount_location` for the directory name of your choosing  
 3. Change the access premissions, at the Open Terminal, type:
 ```text 
 sudo chmod -R 755 my_mount_location
