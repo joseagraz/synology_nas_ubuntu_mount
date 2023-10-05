@@ -49,7 +49,7 @@ Where:
 `150.65.138.4` is the static IP of the Synology box  
 `/volume1/shared_folder` is your mount path shared folder noted earlier  
 `/media/my_mount_location` is the folder you created in step 2  
-6. Save the fstab file and on the Open Terminal type or reboot:
+6. Save the fstab file and on the Open Terminal type command below or reboot:
 ```text 
 sudo mount -a
 ```
