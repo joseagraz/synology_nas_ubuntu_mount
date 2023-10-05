@@ -1,7 +1,6 @@
 # Mount Synology NFS share to Ubuntu 20
-Synology DS1821+, DSM 7.1.1  
-Ubuntu 20
-
+Mounting a Synology NAS on Linux can present challenges and potentially waste valuable time. This repository outlines the procedure to mount a Synology DS1821+ (DSM 7.1.1) on an Ubuntu 20 system. The outlined steps are likely compatible with other Synology models and Linux distributions, requiring minimal modifications if any.
+  
 ## On the Ubuntu 20 Box
 1. Click the pull-down menu icon on the top-left bar
 2. Goto `Settings`
