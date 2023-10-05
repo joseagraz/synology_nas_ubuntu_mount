@@ -54,7 +54,7 @@ Where:
 ```text 
 sudo mount -a
 ```
-Navigate to the folder created in Step 2, files should be there  
+7. Navigate to the folder created in Step 2, files should be there  
 
 ## Troubleshooting
 1. Remove the text in the fstab file from step 5, reboot, and start over
