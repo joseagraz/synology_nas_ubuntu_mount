@@ -60,7 +60,7 @@ sudo mount -a
 2. Make sure the permissions on the mounting directory in step 3 are correct
 3. Verify the IP addresses for the Ubuntu machine and Synology box are correct
 4. Verify the IP address entered in `Hostname or IP` box is correct
-5. Check directoyr/files permissions. Check user "id -u" and if need be, change permissions using the code below:
+5. Check directory/files permissions. Check user "id -u" and if need be, change permissions using the code below:
 ```text 
    sudo chown -R $(id -u):$(id -g) /path/to/directory
 ```
